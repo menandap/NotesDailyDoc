@@ -14,13 +14,13 @@ Documentation Notes of What I Learning Every Day
 - Lerning programming language (1-2 hour or more) 
 - Practice with some hacking/ctf platform (2 hour or more)
 - Watching some videos and tutorial 
-- Ect
+- Etc
 
 ### Middle (2-4 hour)
 - Lerning programming language (1 hour) 
 - Practice with some hacking/ctf platform (1 hour or more)
 - Watching some videos and tutorial 
-- Ect
+- Etc
 
 ### Busy (under 2 hour)
 - Learing what i can i that day
