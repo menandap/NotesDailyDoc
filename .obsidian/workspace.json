@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "3ba963d3a5441f53",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -139,6 +152,9 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "68b91fd181460d3b",
-  "lastOpenFiles": []
+  "active": "3ba963d3a5441f53",
+  "lastOpenFiles": [
+    "October/Day 0 - 15.md",
+    "README.md"
+  ]
 }
