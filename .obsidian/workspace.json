@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "b8c5d516339dd734",
+        "id": "3fd761f19253650c",
         "type": "tabs",
         "children": [
           {
-            "id": "01ad3f1a21dbac63",
+            "id": "37c726dfd4cd80b3",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -139,10 +139,13 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "01ad3f1a21dbac63",
+  "active": "68b91fd181460d3b",
   "lastOpenFiles": [
-    "![[search_engine_index.png]].md",
+    "images/search_engine_index.md",
     "October/Day 0 - 15.md",
+    "images.md",
+    "images/search_engine_index.png",
+    "![[search_engine_index.png]].md",
     "README.md"
   ]
 }
