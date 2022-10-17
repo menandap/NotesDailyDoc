@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "October/Day 0 - 15.md",
+                "file": "Learning/Deployment with Gitlab.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "October/Day 0 - 15.md",
+                "file": "Learning/Deployment with Gitlab.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "October/Day 0 - 15.md",
+                "file": "Learning/Deployment with Gitlab.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "October/Day 0 - 15.md"
+                "file": "Learning/Deployment with Gitlab.md"
               }
             }
           }
@@ -141,8 +141,10 @@
   },
   "active": "37c726dfd4cd80b3",
   "lastOpenFiles": [
-    "2022-10-16.md",
+    "images/g_1b.png",
+    "Learning/Deployment with Gitlab.md",
     "October/Day 0 - 15.md",
+    "2022-10-16.md",
     "images/search_engine_index.png",
     "README.md",
     "images.md",
