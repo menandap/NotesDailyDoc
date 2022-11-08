@@ -13,10 +13,18 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Learning/Deployment with Gitlab.md",
+                "file": "Learning/Deployment Kubernetes with Gitlab.md",
                 "mode": "source",
                 "source": false
               }
+            }
+          },
+          {
+            "id": "57e4c8c0ee3770b0",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -85,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Learning/Deployment with Gitlab.md",
+                "file": "Learning/Deployment Kubernetes with Gitlab.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Learning/Deployment with Gitlab.md",
+                "file": "Learning/Deployment Kubernetes with Gitlab.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Learning/Deployment with Gitlab.md"
+                "file": "Learning/Deployment Kubernetes with Gitlab.md"
               }
             }
           }
@@ -136,20 +144,17 @@
     "width": 300,
     "collapsed": true
   },
-  "ribbon": {
-    "mostRecentAction": ""
-  },
   "active": "37c726dfd4cd80b3",
   "lastOpenFiles": [
-    "images/meow_hackthebox.png",
+    "Learning/Deployment Kubernetes CI_CD.md",
     "Learning/Deployment with Gitlab.md",
+    "WU CTF/WU_GEMASTIK.md",
+    "images/meow_hackthebox.png",
     "images/g_1b.png",
     "October/Day 0 - 15.md",
     "2022-10-16.md",
     "images/search_engine_index.png",
     "README.md",
-    "images.md",
-    "images 1.md",
-    "images/search_engine_index.md"
+    "images.md"
   ]
 }
