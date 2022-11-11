@@ -30,9 +30,9 @@ For Website files you can add hmtl, css, js, images, and etc in ***One Folder***
 
 For Configuration files there are .gitlab-ci.yaml, .gitlab-deploy.sh  .
 
-***.gitlab-ci.yaml***
+***.gitlab-ci.yml***
 
-```yaml
+```yml
 stage-build:
   image: docker:18.09-dind
   stage: build

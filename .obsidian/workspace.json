@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Learning/Deployment Kubernetes with Gitlab.md",
+                "file": "Learning/Kubernetes Dashboard with Microk8s.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Learning/Deployment Kubernetes with Gitlab.md",
+                "file": "Learning/Kubernetes Dashboard with Microk8s.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Learning/Deployment Kubernetes with Gitlab.md",
+                "file": "Learning/Kubernetes Dashboard with Microk8s.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Learning/Deployment Kubernetes with Gitlab.md"
+                "file": "Learning/Kubernetes Dashboard with Microk8s.md"
               }
             }
           }
@@ -146,6 +146,7 @@
   },
   "active": "37c726dfd4cd80b3",
   "lastOpenFiles": [
+    "Learning/Deployment Kubernetes with Gitlab.md",
     "Learning/Deployment Kubernetes CI_CD.md",
     "Learning/Deployment with Gitlab.md",
     "WU CTF/WU_GEMASTIK.md",
@@ -154,7 +155,6 @@
     "October/Day 0 - 15.md",
     "2022-10-16.md",
     "images/search_engine_index.png",
-    "README.md",
-    "images.md"
+    "README.md"
   ]
 }
